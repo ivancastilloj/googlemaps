@@ -12,16 +12,17 @@
  <body>
       <h2>BUSCA UN LUGAR</h2>
       <form action = "hello.jsp" method = "POST">
-         Introduzca el nombre de la ciudad: <input type = "text" name = "ciudad">
+         Introduzca el lugar que desea buscar: <input type = "text" name = "ciudad">
          <br />
-        Introduzca el nombre de la provincia: <input type = "text" name = "provincia" />
+       
          <input type = "submit" value = "¿Donde está?" />
       </form>
+      
        <h2>BUSCA LA DISTANCIA ENTRE DOS LUGARES</h2>
         <form action = "llegar.jsp" method = "POST">
-         Introduzca el nombre de la primera ciudad: <input type = "text" name = "primer">
+         Introduzca su origen: <input type = "text" name = "primer">
          <br />
-        Introduzca el nombre de la segunda ciudad: <input type = "text" name = "segun" />
+        Introduzca su destino: <input type = "text" name = "segun" />
          <input type = "submit" value = "¡Allá vamos!" />
       </form>
    </body>
